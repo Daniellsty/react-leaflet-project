@@ -28,7 +28,7 @@ const MapView = ({ stations }: Props) => {
     <MapContainer
       center={[51.1657, 10.4515]}
       zoom={6}
-      style={{ height: "100vh", width: "100vw" }}
+      style={{ height: "100vh", width: "100vw", zIndex: 0 }}
     >
       <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
